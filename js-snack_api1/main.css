@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0
+}
+body{
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none
+}
+ul,li{
+    list-style-type:none
+}
+main{
+    text-align:center;
+}
+.section-main{
+    display: flex;
+    margin: auto;
+    max-width:400px;
+    padding:30px 0;
+    border:1px solid grey;
+    flex-wrap: nowrap;
+}
+
+.pari,.dispari{
+width:100%;
+    height:auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align:center;
+}
+h1{
+    padding:10px;
+    font-size: 23px;
+}
+.pari-result, .dispari-result{
+    display:flex;
+    width:100px;
+    height:50px;
+    border:1px solid red;
+    justify-content: center;
+    align-items: center;
+}
+.pari-list, .dispari-list{
+    width:100px;
+    height:200px;
+    margin-top: 10px;;
+    border:1px solid blue;
+}
+button{
+    margin:auto;
+    margin-top:20px;
+    padding:10px;
+}

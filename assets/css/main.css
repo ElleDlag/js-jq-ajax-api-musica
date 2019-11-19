@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0
+}
+body{
+    box-sizing:border-box
+}
+a{
+    text-decoration:none
+}
+ul,li{
+    list-style-type:none
+}
+
+main{
+    max-width :1200px;
+    background:peachpuff;
+    margin:auto;
+    box-sizing:border-box
+
+}
+.disco-info{
+    border:1px solid rebeccapurple;
+    width: calc(100% / 3);
+    box-sizing:border-box;
+    padding:10px;
+}
+.disco-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.disco-img,.disco-img img {
+    max-height:200px;
+
+}
+h1{ 
+    height:100%;
+    text-align: center;
+    font-size:20px
+}
